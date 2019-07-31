@@ -1,2 +1,2 @@
 # Minimo
-https://gelvardmann.github.io/Prechu
+https://gelvardmann.github.io/Minimo
