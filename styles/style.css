@@ -1,0 +1,116 @@
+html {
+   font-size: 100%;
+   font-family: 'Playfair Display', serif;
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   margin: 0;
+   padding: 0 5%;
+   overflow: hidden;
+   min-width: 320px;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul{
+   margin: 0;
+   padding: 0;
+}
+
+a {
+   text-decoration: none;
+}
+
+ul {
+   list-style: none;
+}
+
+header {
+   display: flex;
+   justify-content: space-between;
+   padding: 2em 1em;
+}
+
+.logo {
+  font-size: 1.8em;
+  font-family: "Inconsolata";
+  text-transform: uppercase;
+  font-weight: normal;
+  line-height: 1.8em;
+  font-weight: 100;
+  letter-spacing: .2em;
+
+
+}
+
+.nav_menu {
+   display: flex;
+   justify-content: space-between;
+   width: 50%;
+}
+
+.nav_menu-item {
+   color: #000;
+   font-size: 1em;
+   text-transform: uppercase;
+   opacity: .7;
+}
+
+.nav_menu-item:hover {
+   opacity: 1;
+}
+
+.link_section_site {
+   color: #b4ad9e;
+   font-size: 1em;
+   text-transform: uppercase;
+}
+
+.post_image {
+   overflow: hidden;
+   max-height: 509px;
+}
+
+.post_image img {
+   object-fit: contain;
+   width: 100%;
+}
+
+.post_text {
+   font-size: .8em;
+   padding: 2em;
+   color: #626262;
+   width: 66%;
+}
+h2 {
+   margin: 1em 0;
+   font-size: 1.8em
+}
+main {
+}
+
+section {
+
+
+}
+
+footer {
+
+   height: 100px;
+}
+
+
+
+
+
+@media screen and (max-width: 720px) {
+   header {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+   }
+   .nav_menu {
+      width: 100%;
+      margin: 1em auto;
+   }
+}
